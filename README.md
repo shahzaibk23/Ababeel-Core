@@ -24,32 +24,6 @@ Then perform the following step
 ```ruby
 cd /Ababeel/src/main/scala/datapath
 ```
-Open **InsMem.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.# Ababeel Core
-## A RISC-V based Single Cycle Core
-### Designed by Shahzaib Kashif
-
-First of all get started by Cloning this repository in your machine.
-```ruby
-git clone https://github.com/merledu/Ababeel-Core.git
-```
-
-Create a .txt file and place the ***hexadecimal*** code of your instructions simulated on ***Venus*** (RISC-V Simulator)\
-Each instruction's hexadecimal code must be on seperate line as following. This program consists of 9 instructions.
-```
-00400113
-00500193
-014000EF
-00120293
-00402223
-00402283
-00520663
-40310233
-00008067
-```
-Then perform the following step
-```ruby
-cd /Ababeel/src/main/scala/datapath
-```
 Open **InsMem.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
 ```ruby
 open InsMem.scala
