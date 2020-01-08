@@ -48,7 +48,8 @@ sbt:A>
 Enter this command
 ```ruby
 sbt:Ababeel-Core> test:runMain datapath.Launcher Top
-```Change the .txt file path to match your file that you created above storing your own program instructions.
+```
+Change the .txt file path to match your file that you created above storing your own program instructions.
 After setting up the InsMem.scala file, go inside the Ababeel folder.
 
 cd Ababeel
