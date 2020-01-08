@@ -49,13 +49,5 @@ Enter this command
 ```ruby
 sbt:Ababeel-Core> test:runMain datapath.Launcher Top
 ```
-Change the .txt file path to match your file that you created above storing your own program instructions.
-After setting up the InsMem.scala file, go inside the Ababeel folder.
-
-cd Ababeel
-
-And enter
-
-sbt
 After success you will get a folder ***test_run_dir*** on root of your folder. Go into the examples folder inside.\
 There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave**
