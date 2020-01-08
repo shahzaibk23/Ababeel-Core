@@ -51,41 +51,14 @@ sbt:Ababeel-Core> test:runMain datapath.Launcher Top
 ```
 After you get success
 ```ruby
-sbt:Ababeel-Core> test:runMain datapath.Launcher Top --backend-name verilator
-```
-After success you will get a folder ***test_run_dir*** oTAABEERn root of your folder. Go into the examples folder inside.\
-There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave** to\
-see your program running.
-
-```ruby
-open InsMem.scala
-```
-Find the following line
-``` python
-loadMemoryFromFile(mem, "/home/hellcaster/Instruction.txt")
-```
-Change the .txt file path to match your file that you created above storing your own program instructions.\
+sbt:Ababeel-Core> test:runMain datapath.Launcher Top --backend-name verilatorChange the .txt file path to match your file that you created above storing your own program instructions.
 After setting up the InsMem.scala file, go inside the Ababeel folder.
-```ruby
+
 cd Ababeel
-```
+
 And enter
-```ruby
+
 sbt
 ```
-When the terminal changes to this type
-```ruby
-sbt:A>
-```
-Enter this command
-```ruby
-sbt:Ababeel-Core> test:runMain datapath.Launcher Top
-```
-After you get success
-```ruby
-sbt:Ababeel-Core> test:runMain datapath.Launcher Top --backend-name verilator
-```
-After success you will get a folder ***test_run_dir*** oTAABEERn root of your folder. Go into the examples folder inside.\
-There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave** to\
-see your program running.
-
+After success you will get a folder ***test_run_dir*** on root of your folder. Go into the examples folder inside.\
+There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave**
